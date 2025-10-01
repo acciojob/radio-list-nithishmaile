@@ -16,7 +16,7 @@ function createRadioButton(id){
 		radio.disabled=true;
 	}
 	if(id==3){
-		radio.setAttribute("selected","true");
+		radio.setAttribute("checked","true");
 	}
 	const label=document.createElement("label");
 	label.innerText=`Option ${id}`
